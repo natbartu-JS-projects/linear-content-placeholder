@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #ecf2f4;
+  background-color: #ece7e7;
   font-family: 'Indie Flower', cursive;
   display: flex;
   align-items: center;
@@ -24,4 +24,14 @@ img {
   border-radius: 10px;
   overflow: hidden;
   width: 350px;
+}
+
+.card-header {
+  height: 200px;
+}
+
+.card-header img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
